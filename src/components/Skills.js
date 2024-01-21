@@ -1,10 +1,25 @@
 // Skills.js
+// Skills.js
 const Skills = () => {
     return (
-      <section>
+      <section style={sectionStyle}>
         <h2>Skills</h2>
-        {/* Add your skills here */}
+        <ul style={listStyle}>
+          <li>Skill 1</li>
+          <li>Skill 2</li>
+          {/* Add more skills */}
+        </ul>
       </section>
     );
   };
-export default Skills  
+  
+  const sectionStyle = {
+    backgroundColor: '#f4f4f4',
+    padding: '1rem',
+  };
+  
+  const listStyle = {
+    listStyleType: 'none',
+  };
+
+  export default Skills

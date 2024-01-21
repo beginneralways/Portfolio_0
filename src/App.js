@@ -5,7 +5,7 @@ import Stack from './components/Stack.js';
 
 function App() {
   return (
-    <div className="App">
+      <div style={appStyle}>
       <Header />
       <Skills />
       <Stack/>
@@ -13,5 +13,9 @@ function App() {
     </div>
   );
 }
+
+const appStyle = {
+  fontFamily: 'Arial, sans-serif',
+};
 
 export default App;

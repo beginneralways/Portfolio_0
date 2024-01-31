@@ -1,5 +1,5 @@
 // Skills.js
-// Skills.js
+
 const Skills = () => {
     return (
       <section style={sectionStyle}>
@@ -12,12 +12,12 @@ const Skills = () => {
       </section>
     );
   };
-  
+
   const sectionStyle = {
     backgroundColor: '#f4f4f4',
     padding: '1rem',
   };
-  
+
   const listStyle = {
     listStyleType: 'none',
   };
